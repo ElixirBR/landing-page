@@ -71,8 +71,8 @@ const animationTranslate = [
 ]
 
 
-animateStart(logo, 500, animationTranslate)
-animateStart(about, 700, animationTranslate)
-animateStart(header, 700, animationTranslate)
+animateStart(logo, 0, animationTranslate)
+animateStart(about, 0, animationTranslate)
+animateStart(header, 100, animationTranslate)
 
-socialLink.map((link, idx) => animateStart(link, 700 + idx * 100, animationTranslate))
+socialLink.map((link, idx) => animateStart(link, 0 + idx * 50, animationTranslate))
