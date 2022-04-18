@@ -28,11 +28,13 @@ header .logo {
   gap: 0.5rem;
   align-items: center;
 }
+
 header .logo h1 {
   color: #FDE047;
   font-size: 1.5rem;
   font-weight: 500;
 }
+
 header .logo img {
   max-height: 2rem;
 }
@@ -42,6 +44,7 @@ header .links {
   gap: 2rem;
   align-items: center;
 }
+
 header .yellow-link {
   text-decoration: none;
   color: #fff;
@@ -51,10 +54,12 @@ header .yellow-link {
   padding: 0.5rem 1.2rem;
   border-radius: 0.2rem;
 }
+
 header .social-link {
   display: flex;
   align-items: center;
 }
+
 header .social-link img {
   height: 1.5rem;
 }
@@ -69,13 +74,15 @@ header .social-media {
   display: flex;
   height: 90%;
 }
+
 .content .elixir-logo {
   flex: 1;
-  
+
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .content .elixir-logo img {
   max-height: 28rem;
 }
@@ -90,21 +97,24 @@ header .social-media {
 
   text-align: center;
 }
+
 .content .about h1 {
   font-weight: 500;
   font-size: 4rem;
 }
+
 .content .about p {
   padding: 0.5rem 3vw;
   font-size: 1.5rem;
 }
+
 .content .about #cta {
   border: none;
   text-decoration: none;
   background: #7E22CE;
   font-weight: 500;
   font-size: 1.5rem;
-  color: #fff; 
+  color: #fff;
 
   margin-top: 2rem;
 
@@ -142,6 +152,7 @@ footer .sm-links {
   margin: 2rem 0;
 
 }
+
 footer .footer-link {
 
   background: #000;
@@ -157,10 +168,16 @@ footer .footer-link {
 
 }
 
+.footer-link:hover {
+  animation: scale .4s ease forwards;
+  -webkit-animation: scale .4s ease forwards;
+}
+
 .elixir {
   text-decoration: none;
   color: #7E22CE;
 }
+
 .erlang {
   text-decoration: none;
   color: #BE185D;
@@ -176,9 +193,11 @@ footer .footer-link {
   .content .elixir-logo {
     margin-top: 3rem;
   }
+
   .content .elixir-logo img {
     max-height: 23rem;
   }
+
   .content .about #cta {
     width: 80%;
   }
@@ -187,7 +206,26 @@ footer .footer-link {
     display: flex;
     gap: 1.5rem;
     margin: 2rem 0;
-  
+
   }
 
+}
+
+
+@keyframes scale {
+  from {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+  }
 }
