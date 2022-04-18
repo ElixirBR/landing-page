@@ -52,11 +52,11 @@ header .yellow-link {
   padding: 0.5rem 1.2rem;
   border-radius: 0.2rem;
 }
-header .github-link {
+header .social-link {
   display: flex;
   align-items: center;
 }
-header .github-link img {
+header .social-link img {
   height: 1.5rem;
 }
 
@@ -94,6 +94,20 @@ header .github-link img {
   padding: 0.5rem 3vw;
   font-size: 1.5rem;
 }
+.content .about #cta {
+  border: none;
+  text-decoration: none;
+  background: #7E22CE;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #fff; 
+
+  margin-top: 4rem;
+
+  border-radius: 0.2rem;
+
+  padding: 2rem;
+}
 
 
 .elixir {
@@ -112,6 +126,9 @@ header .github-link img {
     gap: 4rem;
   }
 
+  .content .elixir-logo {
+    margin-top: 3rem;
+  }
   .content .elixir-logo img {
     max-height: 23rem;
   }
