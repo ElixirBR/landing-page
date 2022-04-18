@@ -72,6 +72,10 @@ header .github-link img {
   align-items: center;
   justify-content: center;
 }
+.content .elixir-logo img {
+  max-height: 28rem;
+}
+
 .content .about {
   flex: 1;
 
@@ -106,6 +110,10 @@ header .github-link img {
   .content {
     flex-direction: column;
     gap: 4rem;
+  }
+
+  .content .elixir-logo img {
+    max-height: 23rem;
   }
 
 }
