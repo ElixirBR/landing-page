@@ -9,6 +9,6 @@ Elixir BR é uma comunidade não-oficial construida para reunir programadores in
 # Como contribuir?
 
 - Faça um fork;
-- Crie uma branch com a feature: `feat/nome_feature`;
+- Crie uma branch com a feature: `git checkout -b feat/nome_feature`;
 - Faça um commit com suas alterações: `git commit -m "feat: descrição"`;
 - Faça um push com sua branch: `git push origin feat/nome_feature`.
