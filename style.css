@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.app {
+
+  width: 100%;
+  height: 100vh;
+
+}
+
+
+header {
+  width: 100%;
+  height: 10%;
+  padding: 0.8rem 3vw;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+header .logo h1 {
+  color: #FDE047;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+header .logo img {
+  max-height: 2rem;
+}
+
+header .links {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+header .yellow-link {
+  text-decoration: none;
+  color: #fff;
+  background: #FACC15;
+  font-weight: 500;
+  text-align: center;
+  padding: 0.5rem 1.2rem;
+  border-radius: 0.2rem;
+}
+header .github-link {
+  display: flex;
+  align-items: center;
+}
+header .github-link img {
+  height: 1.5rem;
+}
+
+
+.content {
+  display: flex;
+  height: 90%;
+}
+.content .elixir-logo {
+  flex: 1;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content .about {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+}
+.content .about h1 {
+  font-weight: 500;
+  font-size: 4rem;
+}
+.content .about p {
+  padding: 0.5rem 3vw;
+  font-size: 1.5rem;
+}
+
+
+.elixir {
+  text-decoration: none;
+  color: #7E22CE;
+}
+.erlang {
+  text-decoration: none;
+  color: #BE185D;
+}
+
+@media (max-width: 768px) {
+
+  .content {
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+}
